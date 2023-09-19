@@ -1,7 +1,11 @@
 package com.company;
 
 public class GenericHolder<T> {
-    private T a = 5;
+    private T a ;
+
+    public GenericHolder(T a) {
+        this.a = a;
+    }
 
     public T getA() {
         return a;
